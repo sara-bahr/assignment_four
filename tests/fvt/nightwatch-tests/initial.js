@@ -17,7 +17,7 @@ module.exports = {
         await demodoi.navigate().waitForElementVisible('@inputText');
 
         await demodoi.setValue('@inputText', [
-            '78641',
+            '3210',
             browser.Keys.ENTER
           ]);
     
